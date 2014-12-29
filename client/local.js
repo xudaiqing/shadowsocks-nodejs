@@ -31,13 +31,13 @@
 
   path = require("path");
 
-  udpRelay = require("./udprelay");
+  udpRelay = require("./../lib/udprelay");
 
-  utils = require('./utils');
+  utils = require('./../lib/utils');
 
-  inet = require('./inet');
+  inet = require('./../lib/inet');
 
-  Encryptor = require("./encrypt").Encryptor;
+  Encryptor = require("./../lib/encrypt").Encryptor;
 
   connections = 0;
 
